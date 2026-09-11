@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/
+harness/results_table.json
+.DS_Store
+*.egg-info/
+dist/
+build/
+frontend/node_modules/
+frontend/.next/
+# Huge US-wide downloads — keep only frozen Dallas slices in git
+data/raw/

@@ -1,0 +1,385 @@
+zip,StateName,City,Metro,CountyName,month_end,zhvi,list_month
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,504252.5923459456,2024-08
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,504338.23716688127,2024-09
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,505429.218541818,2024-10
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,506354.6965477185,2024-11
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,507277.124043202,2024-12
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,507690.79516387434,2025-01
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,507789.3519373079,2025-02
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,506739.8435774219,2025-03
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,504454.89877595793,2025-04
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,501286.06922045705,2025-05
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,497415.34008853586,2025-06
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,494016.5494903,2025-07
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,492025.9514559024,2025-08
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,492237.35789636447,2025-09
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,493831.5913817345,2025-10
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,495455.372758416,2025-11
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,496857.2883064779,2025-12
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,497669.45247423666,2026-01
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,497767.2966206423,2026-02
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,496863.79014502704,2026-03
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,494964.2940761983,2026-04
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,492441.270637322,2026-05
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,490119.9543663973,2026-06
+75001,TX,Addison,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,488759.9624474887,2026-07
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2024-08-31,673687.0506502944,2024-08
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2024-09-30,673288.7250980764,2024-09
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2024-10-31,674383.4723529607,2024-10
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2024-11-30,676366.6189745595,2024-11
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2024-12-31,677179.8874318246,2024-12
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-01-31,676750.7880372069,2025-01
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-02-28,674995.9560447122,2025-02
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-03-31,672045.1121670256,2025-03
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-04-30,668881.2171640452,2025-04
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-05-31,664909.3654903631,2025-05
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-06-30,659759.7279755153,2025-06
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-07-31,654092.2993232231,2025-07
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-08-31,650420.0634588,2025-08
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-09-30,649795.6998100461,2025-09
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-10-31,650114.1677342363,2025-10
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-11-30,650076.8604589925,2025-11
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2025-12-31,649580.0243852298,2025-12
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2026-01-31,648468.7121462511,2026-01
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2026-02-28,646691.8417808949,2026-02
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2026-03-31,643253.0961328559,2026-03
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2026-04-30,639082.5222768586,2026-04
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2026-05-31,635105.3036246923,2026-05
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2026-06-30,632787.0185753531,2026-06
+75024,TX,Plano,"Dallas-Fort Worth-Arlington, TX",Collin County,2026-07-31,631639.7793485905,2026-07
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2024-08-31,710162.175105969,2024-08
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2024-09-30,711025.4861228174,2024-09
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2024-10-31,712162.8365966006,2024-10
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2024-11-30,713051.1595220797,2024-11
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2024-12-31,712436.3641631437,2024-12
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-01-31,710774.6671823654,2025-01
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-02-28,707752.2145114847,2025-02
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-03-31,704210.4016383766,2025-03
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-04-30,700167.876292828,2025-04
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-05-31,695448.8968307246,2025-05
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-06-30,689419.6374577346,2025-06
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-07-31,683947.3507448666,2025-07
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-08-31,680030.8323394902,2025-08
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-09-30,679138.0914429933,2025-09
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-10-31,679506.4380362318,2025-10
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-11-30,679828.9986414181,2025-11
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2025-12-31,679571.6996270565,2025-12
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2026-01-31,677842.3298397012,2026-01
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2026-02-28,675698.3542240405,2026-02
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2026-03-31,672985.332929928,2026-03
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2026-04-30,669855.3755303076,2026-04
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2026-05-31,665839.7631403062,2026-05
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2026-06-30,662065.6099640514,2026-06
+75033,TX,Frisco,"Dallas-Fort Worth-Arlington, TX",Denton County,2026-07-31,659456.3476151732,2026-07
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,627689.5724752112,2024-08
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,627206.1664409599,2024-09
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,628415.0442361714,2024-10
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,629171.4760584211,2024-11
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,629091.0265391594,2024-12
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,627188.6064451082,2025-01
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,624947.1529980513,2025-02
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,622118.1052637236,2025-03
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,619861.6833418423,2025-04
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,616838.4477768744,2025-05
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,612815.6564483504,2025-06
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,609342.2573170813,2025-07
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,607943.409669057,2025-08
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,609186.7949057347,2025-09
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,611525.3877267729,2025-10
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,613910.0172634796,2025-11
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,615617.8858575639,2025-12
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,615212.1946740448,2026-01
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,613793.9640613175,2026-02
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,611779.7860640206,2026-03
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,610417.1133845571,2026-04
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,609152.0848992321,2026-05
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,608575.556040131,2026-06
+75063,TX,Irving,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,608377.8441930428,2026-07
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,946349.2922466728,2024-08
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,948996.6135639882,2024-09
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,955274.663043662,2024-10
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,961827.401815746,2024-11
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,968268.4336522036,2024-12
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,974148.445917258,2025-01
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,979766.9734625316,2025-02
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,982204.3431551612,2025-03
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,980170.135182871,2025-04
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,975185.9203123816,2025-05
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,969383.5669441464,2025-06
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,967723.0413353548,2025-07
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,970274.9970563564,2025-08
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,977013.530679722,2025-09
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,983504.3522458258,2025-10
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,990232.214407208,2025-11
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,995399.1197179694,2025-12
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,1000945.2027746144,2026-01
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,1005005.480554058,2026-02
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,1007838.129086411,2026-03
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,1005174.9335189536,2026-04
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,1000579.874125362,2026-05
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,996547.2192877326,2026-06
+75201,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,995997.0225780236,2026-07
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,517745.30817216047,2024-08
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,516197.5916385536,2024-09
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,515918.6095530155,2024-10
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,515440.92257021595,2024-11
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,515557.189387565,2024-12
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,516750.4203345133,2025-01
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,518308.2658308584,2025-02
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,518419.5851219289,2025-03
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,516599.1624480666,2025-04
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,513712.01821366773,2025-05
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,510240.379673551,2025-06
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,507912.9053069697,2025-07
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,507515.2261180194,2025-08
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,509056.847655206,2025-09
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,511096.8180565845,2025-10
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,512237.2854246292,2025-11
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,512466.7303054768,2025-12
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,512612.7975097501,2026-01
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,512709.63969610183,2026-02
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,512362.65305035975,2026-03
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,509677.42222174554,2026-04
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,506044.0139651313,2026-05
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,502622.5087438088,2026-06
+75204,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,501099.2027864412,2026-07
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,1945000.08028421,2024-08
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,1952201.0068131753,2024-09
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,1965337.7806627569,2024-10
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,1982373.5147498331,2024-11
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,1997988.4430929285,2024-12
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,2010875.777613584,2025-01
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,2017522.838127819,2025-02
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,2024883.121191016,2025-03
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,2028471.143188156,2025-04
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,2030708.419001367,2025-05
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,2020979.2540254695,2025-06
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,2014282.0076018712,2025-07
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,2014588.367910278,2025-08
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,2028046.2480114356,2025-09
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,2043782.02093238,2025-10
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,2061396.723798292,2025-11
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,2080477.886665796,2025-12
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,2100155.9941008603,2026-01
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,2116635.152119935,2026-02
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,2126095.8207204696,2026-03
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,2125231.545664609,2026-04
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,2121602.2383138374,2026-05
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,2121407.4531502817,2026-06
+75205,TX,Highland Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,2132614.8434663783,2026-07
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,600674.7684645992,2024-08
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,599985.4924572683,2024-09
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,601280.20088353,2024-10
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,602366.9381623216,2024-11
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,603606.2727106152,2024-12
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,605391.8532003901,2025-01
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,607393.2528542589,2025-02
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,607898.0217091345,2025-03
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,606222.0857012509,2025-04
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,604120.0659683634,2025-05
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,601121.3241271689,2025-06
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,599351.497568201,2025-07
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,599085.293335019,2025-08
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,601615.8980830257,2025-09
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,604923.4131621268,2025-10
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,608596.3158272005,2025-11
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,611555.4723671975,2025-12
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,614163.0208287911,2026-01
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,615859.8037643719,2026-02
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,616337.4035120071,2026-03
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,614798.1982545996,2026-04
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,613297.1782128382,2026-05
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,612805.7554496597,2026-06
+75206,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,614138.1100847209,2026-07
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,1027479.4496049868,2024-08
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,1029611.819867649,2024-09
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,1035010.997202836,2024-10
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,1041815.0431974354,2024-11
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,1049986.931150175,2024-12
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,1056773.2743885503,2025-01
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,1060034.2927432607,2025-02
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,1059452.771222438,2025-03
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,1055407.9730759256,2025-04
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,1049894.1656719667,2025-05
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,1040932.4739347036,2025-06
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,1034423.4723198996,2025-07
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,1032033.018083734,2025-08
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,1036889.0255632848,2025-09
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,1044787.360982074,2025-10
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,1054385.0236905285,2025-11
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,1062549.2505444707,2025-12
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,1068740.456201232,2026-01
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,1071637.974420512,2026-02
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,1070192.2940085288,2026-03
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,1068138.55091312,2026-04
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,1066893.335277018,2026-05
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,1070231.0538635033,2026-06
+75209,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,1076322.0611317249,2026-07
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,822898.5952214102,2024-08
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,824672.9444394283,2024-09
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,828883.2443480074,2024-10
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,832239.4667520416,2024-11
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,834215.2234525002,2024-12
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,834104.0289706761,2025-01
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,833601.9082145497,2025-02
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,832441.3011150075,2025-03
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,830433.5922536835,2025-04
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,828345.9316347038,2025-05
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,823765.4926011134,2025-06
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,820662.8611045993,2025-07
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,819869.6217983398,2025-08
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,823673.2456219662,2025-09
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,829112.5414948905,2025-10
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,835020.7685888753,2025-11
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,840810.5771042252,2025-12
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,844657.5770869404,2026-01
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,846613.1301878785,2026-02
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,845889.2017274263,2026-03
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,843911.7674706167,2026-04
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,842317.2171603475,2026-05
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,843421.9983479342,2026-06
+75214,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,847519.3271752194,2026-07
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,436806.0828806891,2024-08
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,435485.46446488827,2024-09
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,435106.8609141155,2024-10
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,434115.0855522785,2024-11
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,433555.0665861373,2024-12
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,433324.7233003875,2025-01
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,433826.7581832134,2025-02
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,433079.9517440904,2025-03
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,431069.7385897681,2025-04
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,428345.37560617406,2025-05
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,425668.8211514119,2025-06
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,424356.004875182,2025-07
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,424723.3044602555,2025-08
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,426405.7189061509,2025-09
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,427639.0500193285,2025-10
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,428258.14838219946,2025-11
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,428256.53031246504,2025-12
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,428933.4765435821,2026-01
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,429610.9889145689,2026-02
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,429859.95866983134,2026-03
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,428165.5612596104,2026-04
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,425537.7199717105,2026-05
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,423388.5458087977,2026-06
+75219,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,423075.36265311897,2026-07
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,1880953.7646631924,2024-08
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,1888903.3172179807,2024-09
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,1903796.1586575452,2024-10
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,1918691.7492149908,2024-11
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,1932291.8052831097,2024-12
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,1940044.9977193277,2025-01
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,1943131.0332591897,2025-02
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,1947506.921232624,2025-03
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,1951220.7839313932,2025-04
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,1956593.2632086088,2025-05
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,1953448.0559674103,2025-06
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,1954445.5335788236,2025-07
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,1961058.51357798,2025-08
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,1980027.9796553429,2025-09
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,2002960.7680060056,2025-10
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,2029979.500894988,2025-11
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,2058195.821617201,2025-12
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,2082024.392656977,2026-01
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,2099270.3051044624,2026-02
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,2106889.314553687,2026-03
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,2107869.3707947116,2026-04
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,2104782.002110793,2026-05
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,2104231.330428836,2026-06
+75225,TX,University Park,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,2110994.1565773445,2026-07
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,985330.7961858014,2024-08
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,987036.1571979126,2024-09
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,993635.3640308328,2024-10
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,1001335.2467725038,2024-11
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,1007536.474301346,2024-12
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,1010084.3063967676,2025-01
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,1011522.3410358116,2025-02
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,1013673.656544507,2025-03
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,1016817.5998867444,2025-04
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,1020940.7836209756,2025-05
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,1020347.6575335684,2025-06
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,1019808.9270107932,2025-07
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,1020374.141215647,2025-08
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,1027336.1900752252,2025-09
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,1036435.3377232706,2025-10
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,1046378.4935046476,2025-11
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,1056676.6990086462,2025-12
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,1064870.7459537678,2026-01
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,1071768.6535045544,2026-02
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,1074549.0791690794,2026-03
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,1074935.7763312606,2026-04
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,1072478.897797404,2026-05
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,1071533.87865783,2026-06
+75230,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,1072836.0944650674,2026-07
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-08-31,646256.9325624844,2024-08
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-09-30,646653.2005670472,2024-09
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-10-31,647304.154412065,2024-10
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-11-30,647496.5299021777,2024-11
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2024-12-31,646964.5952025497,2024-12
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-01-31,646076.1042390774,2025-01
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-02-28,644866.2250085594,2025-02
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-03-31,642966.9369855862,2025-03
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-04-30,640537.8069710644,2025-04
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-05-31,637509.1325316549,2025-05
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-06-30,633059.5691177094,2025-06
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-07-31,628966.7214079483,2025-07
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-08-31,626253.0716756451,2025-08
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-09-30,626228.2532217341,2025-09
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-10-31,627739.6302171667,2025-10
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-11-30,630502.4505866863,2025-11
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2025-12-31,633377.3110445074,2025-12
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-01-31,634659.4654241074,2026-01
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-02-28,634504.6406254504,2026-02
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-03-31,632695.0197305403,2026-03
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-04-30,631286.1166799736,2026-04
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-05-31,630592.223124259,2026-05
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-06-30,632487.2503504494,2026-06
+75248,TX,Dallas,"Dallas-Fort Worth-Arlington, TX",Dallas County,2026-07-31,635776.6107417451,2026-07
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2024-08-31,548169.0436512582,2024-08
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2024-09-30,549384.8710387057,2024-09
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2024-10-31,551693.761231948,2024-10
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2024-11-30,553804.4234896888,2024-11
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2024-12-31,555211.7850820242,2024-12
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-01-31,555516.8309755971,2025-01
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-02-28,554584.8105927677,2025-02
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-03-31,552640.4808856184,2025-03
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-04-30,550525.3333706543,2025-04
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-05-31,548042.9476522831,2025-05
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-06-30,544914.8636260155,2025-06
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-07-31,542220.4721843277,2025-07
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-08-31,540681.0685363071,2025-08
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-09-30,541833.3250916012,2025-09
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-10-31,544207.8464414328,2025-10
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-11-30,547222.9368983229,2025-11
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-12-31,549502.9724670235,2025-12
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-01-31,550675.5195439694,2026-01
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-02-28,550621.8522473621,2026-02
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-03-31,549887.6314530397,2026-03
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-04-30,548943.5693907881,2026-04
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-05-31,548423.6132456815,2026-05
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-06-30,548965.8967353493,2026-06
+76051,TX,Grapevine,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-07-31,550030.9222124506,2026-07
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2024-08-31,375109.0953361427,2024-08
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2024-09-30,375413.0715100428,2024-09
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2024-10-31,376106.95664833434,2024-10
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2024-11-30,376702.4834261054,2024-11
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2024-12-31,377219.7055977541,2024-12
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-01-31,377502.2947320379,2025-01
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-02-28,377861.80905744503,2025-02
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-03-31,377139.3741793264,2025-03
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-04-30,375801.63446287665,2025-04
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-05-31,374340.7221079315,2025-05
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-06-30,372854.0292133532,2025-06
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-07-31,371643.78297680547,2025-07
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-08-31,370482.85687228973,2025-08
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-09-30,369645.291063287,2025-09
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-10-31,369061.5851918836,2025-10
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-11-30,369042.09948200505,2025-11
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2025-12-31,369503.5928737374,2025-12
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-01-31,370032.6871681366,2026-01
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-02-28,370338.2053446843,2026-02
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-03-31,369639.93712411745,2026-03
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-04-30,368165.6696360448,2026-04
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-05-31,366674.3650087204,2026-05
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-06-30,366414.7366512153,2026-06
+76107,TX,Fort Worth,"Dallas-Fort Worth-Arlington, TX",Tarrant County,2026-07-31,367210.45166276506,2026-07

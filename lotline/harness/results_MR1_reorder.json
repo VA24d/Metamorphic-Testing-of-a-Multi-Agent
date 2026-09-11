@@ -1,0 +1,2876 @@
+{
+  "available": true,
+  "seed": 7,
+  "n_base_inputs": 10,
+  "selected_mrs": [
+    "MR1_reorder"
+  ],
+  "smoke": {
+    "mr_id": "SMOKE_agent_loop",
+    "passed": true,
+    "detail": "iter=1 scanner \u2192 84 listings | iter=1 analyst \u2192 coverage=1.00, total=84 | iter=1 critic \u2192 PASS (Coverage 1.00 acceptable across 12 months.)",
+    "metrics": {}
+  },
+  "results": [
+    {
+      "mr_id": "MR1_reorder",
+      "n": 10,
+      "violations": 0,
+      "violation_rate": 0.0,
+      "ci95": [
+        0.0,
+        0.2775327998628892
+      ],
+      "seed": 7,
+      "agents": [
+        "Scanner",
+        "Analyst"
+      ],
+      "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts.",
+      "sample_failures": [],
+      "cases": [
+        {
+          "case": 0,
+          "passed": true,
+          "detail": "stats identical after shuffle",
+          "criteria": {
+            "price_min": 438000.0,
+            "price_max": 888000.0,
+            "zips": [
+              "75225",
+              "75209",
+              "75204",
+              "75206",
+              "75024",
+              "75063",
+              "75001",
+              "75201",
+              "76107",
+              "75033",
+              "75214"
+            ],
+            "window_end": "2025-12",
+            "beds_min": 3,
+            "beds_max": 5
+          },
+          "metrics": {
+            "transform": "Shuffle ZIP-month row order (same data)",
+            "expect": "median_price, median_ppsf, active_count unchanged",
+            "checks": {
+              "median_price_equal": true,
+              "median_ppsf_equal": true,
+              "active_count_equal": true
+            },
+            "source": {
+              "months": [
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12"
+              ],
+              "median_price": [
+                627188.61,
+                624947.15,
+                622118.11,
+                619861.68,
+                616838.45,
+                612815.66,
+                609342.26,
+                607943.41,
+                609186.79,
+                611525.39,
+                613910.02,
+                615617.89
+              ],
+              "median_ppsf": [
+                199.7303,
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082
+              ],
+              "active_count": [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              "yoy_pct_change": -1.844855,
+              "total_listings": 84,
+              "coverage_score": 1.0
+            },
+            "followup": {
+              "months": [
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12"
+              ],
+              "median_price": [
+                627188.61,
+                624947.15,
+                622118.11,
+                619861.68,
+                616838.45,
+                612815.66,
+                609342.26,
+                607943.41,
+                609186.79,
+                611525.39,
+                613910.02,
+                615617.89
+              ],
+              "median_ppsf": [
+                199.7303,
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082
+              ],
+              "active_count": [
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7,
+                7
+              ],
+              "yoy_pct_change": -1.844855,
+              "total_listings": 84,
+              "coverage_score": 1.0
+            },
+            "agents": [
+              "Scanner",
+              "Analyst"
+            ],
+            "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts.",
+            "agent_pipeline": {
+              "mode": "mock",
+              "iterations": 1,
+              "trace": [
+                "mode=mock",
+                "iter=1 criteria \u2192 price 438000-888000, zips=11, beds=3-5",
+                "iter=1 scanner \u2192 84 listings",
+                "iter=1 analyst \u2192 coverage=1.00, total=84",
+                "iter=1 critic \u2192 PASS (Coverage 1.00 acceptable across 12 months.)"
+              ],
+              "agent_steps": [
+                {
+                  "agent": "Criteria",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Built query plan: $438,000\u2013$888,000, 3\u20135 beds, 11 ZIPs, window 2025-01\u21922025-12 (rev #0)",
+                  "details": {
+                    "price_min": 438000.0,
+                    "price_max": 888000.0,
+                    "beds_min": 3,
+                    "beds_max": 5,
+                    "sqft_min": 1195.0,
+                    "sqft_max": 3390.0,
+                    "zips": [
+                      "75225",
+                      "75209",
+                      "75204",
+                      "75206",
+                      "75024",
+                      "75063",
+                      "75001",
+                      "75201",
+                      "76107",
+                      "75033",
+                      "75214"
+                    ],
+                    "window_start": "2025-01",
+                    "window_end": "2025-12",
+                    "notes": [
+                      "Initialized from user criteria",
+                      "Aggregate mode: filters use ZHVI (price) + ZIP/month; beds/sqft not in public feeds"
+                    ],
+                    "revision_round": 0
+                  }
+                },
+                {
+                  "agent": "Scanner",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Retrieved 84 matching listings from local dataset",
+                  "details": {
+                    "matched_listings": 84,
+                    "unique_zips": [
+                      "75001",
+                      "75024",
+                      "75033",
+                      "75063",
+                      "75204",
+                      "75206",
+                      "75214"
+                    ],
+                    "counts_by_month": {
+                      "2025-01": 7,
+                      "2025-02": 7,
+                      "2025-03": 7,
+                      "2025-04": 7,
+                      "2025-05": 7,
+                      "2025-06": 7,
+                      "2025-07": 7,
+                      "2025-08": 7,
+                      "2025-09": 7,
+                      "2025-10": 7,
+                      "2025-11": 7,
+                      "2025-12": 7
+                    },
+                    "sample_ids": [
+                      "75001-2025-01",
+                      "75024-2025-01",
+                      "75033-2025-01",
+                      "75063-2025-01",
+                      "75204-2025-01",
+                      "75206-2025-01",
+                      "75214-2025-01",
+                      "75001-2025-02"
+                    ]
+                  }
+                },
+                {
+                  "agent": "Analyst",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Computed 12-month trend \u00b7 coverage 1.00 \u00b7 YoY -1.8%",
+                  "details": {
+                    "total_listings": 84,
+                    "coverage_score": 1.0,
+                    "yoy_pct_change": -1.8448550354138065,
+                    "empty_months": [],
+                    "first_month": {
+                      "month": "2025-01",
+                      "median_price": 627188.6064451082,
+                      "median_price_per_sqft": 199.73027745,
+                      "active_count": 7
+                    },
+                    "last_month": {
+                      "month": "2025-12",
+                      "median_price": 615617.8858575639,
+                      "median_price_per_sqft": 189.708217312,
+                      "active_count": 7
+                    },
+                    "monthly": [
+                      {
+                        "month": "2025-01",
+                        "median_price": 627188.6064451082,
+                        "median_price_per_sqft": 199.73027745,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-02",
+                        "median_price": 624947.1529980513,
+                        "median_price_per_sqft": 195.558833958,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-03",
+                        "median_price": 622118.1052637236,
+                        "median_price_per_sqft": 197.249723826,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-04",
+                        "median_price": 619861.6833418423,
+                        "median_price_per_sqft": 200.400801603,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-05",
+                        "median_price": 616838.4477768744,
+                        "median_price_per_sqft": 192.901280939,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-06",
+                        "median_price": 612815.6564483504,
+                        "median_price_per_sqft": 199.311023622,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-07",
+                        "median_price": 609342.2573170813,
+                        "median_price_per_sqft": 193.912056716,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-08",
+                        "median_price": 607943.409669057,
+                        "median_price_per_sqft": 194.961007798,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-09",
+                        "median_price": 609186.7949057347,
+                        "median_price_per_sqft": 190.500036658,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-10",
+                        "median_price": 611525.3877267729,
+                        "median_price_per_sqft": 190.966326531,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-11",
+                        "median_price": 613910.0172634796,
+                        "median_price_per_sqft": 190.398130071,
+                        "active_count": 7
+                      },
+                      {
+                        "month": "2025-12",
+                        "median_price": 615617.8858575639,
+                        "median_price_per_sqft": 189.708217312,
+                        "active_count": 7
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent": "Critic",
+                  "iteration": 1,
+                  "status": "pass",
+                  "summary": "PASS \u2014 Coverage 1.00 acceptable across 12 months.",
+                  "details": {
+                    "status": "pass",
+                    "coverage_score": 1.0,
+                    "confidence": 1.0,
+                    "actions": []
+                  }
+                },
+                {
+                  "agent": "Report",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "DFW median list price softened -1.8% over the selected 12 months",
+                  "details": {
+                    "headline": "DFW median list price softened -1.8% over the selected 12 months",
+                    "narrative": "Across 84 matching listings from 2025-01 to 2025-12, median price moved from $627,189 to $615,618 (USD). Median $/sqft ended at $190. Coverage score 1.00 after 1 agent iteration(s). Active filters: $438,000\u2013$888,000, 3\u20135 beds, 11 ZIP codes.",
+                    "iterations": 1,
+                    "mode": "mock"
+                  }
+                }
+              ],
+              "headline": "DFW median list price softened -1.8% over the selected 12 months"
+            }
+          }
+        },
+        {
+          "case": 1,
+          "passed": true,
+          "detail": "stats identical after shuffle",
+          "criteria": {
+            "price_min": 350000.0,
+            "price_max": 783000.0,
+            "zips": [
+              "76051",
+              "76107",
+              "75001",
+              "75209",
+              "75204",
+              "75219",
+              "75206",
+              "75024",
+              "75063",
+              "75248",
+              "75230",
+              "75214",
+              "75033",
+              "75225",
+              "75205",
+              "75201"
+            ],
+            "window_end": "2025-08",
+            "beds_min": 2,
+            "beds_max": 4
+          },
+          "metrics": {
+            "transform": "Shuffle ZIP-month row order (same data)",
+            "expect": "median_price, median_ppsf, active_count unchanged",
+            "checks": {
+              "median_price_equal": true,
+              "median_ppsf_equal": true,
+              "active_count_equal": true
+            },
+            "source": {
+              "months": [
+                "2024-09",
+                "2024-10",
+                "2024-11",
+                "2024-12",
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08"
+              ],
+              "median_price": [
+                574685.18,
+                576486.98,
+                578085.68,
+                579409.03,
+                580454.34,
+                580989.03,
+                580269.25,
+                578373.71,
+                576081.51,
+                573018.09,
+                570785.98,
+                569883.18
+              ],
+              "median_ppsf": [
+                200.7163,
+                201.3052,
+                200.8242,
+                201.7181,
+                199.7303,
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961
+              ],
+              "active_count": [
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10
+              ],
+              "yoy_pct_change": -0.835588,
+              "total_listings": 120,
+              "coverage_score": 1.0
+            },
+            "followup": {
+              "months": [
+                "2024-09",
+                "2024-10",
+                "2024-11",
+                "2024-12",
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08"
+              ],
+              "median_price": [
+                574685.18,
+                576486.98,
+                578085.68,
+                579409.03,
+                580454.34,
+                580989.03,
+                580269.25,
+                578373.71,
+                576081.51,
+                573018.09,
+                570785.98,
+                569883.18
+              ],
+              "median_ppsf": [
+                200.7163,
+                201.3052,
+                200.8242,
+                201.7181,
+                199.7303,
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961
+              ],
+              "active_count": [
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10
+              ],
+              "yoy_pct_change": -0.835588,
+              "total_listings": 120,
+              "coverage_score": 1.0
+            },
+            "agents": [
+              "Scanner",
+              "Analyst"
+            ],
+            "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts.",
+            "agent_pipeline": {
+              "mode": "mock",
+              "iterations": 1,
+              "trace": [
+                "mode=mock",
+                "iter=1 criteria \u2192 price 350000-783000, zips=16, beds=2-4",
+                "iter=1 scanner \u2192 120 listings",
+                "iter=1 analyst \u2192 coverage=1.00, total=120",
+                "iter=1 critic \u2192 PASS (Coverage 1.00 acceptable across 12 months.)"
+              ],
+              "agent_steps": [
+                {
+                  "agent": "Criteria",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Built query plan: $350,000\u2013$783,000, 2\u20134 beds, 16 ZIPs, window 2024-09\u21922025-08 (rev #0)",
+                  "details": {
+                    "price_min": 350000.0,
+                    "price_max": 783000.0,
+                    "beds_min": 2,
+                    "beds_max": 4,
+                    "sqft_min": 1196.0,
+                    "sqft_max": 2523.0,
+                    "zips": [
+                      "76051",
+                      "76107",
+                      "75001",
+                      "75209",
+                      "75204",
+                      "75219",
+                      "75206",
+                      "75024",
+                      "75063",
+                      "75248",
+                      "75230",
+                      "75214",
+                      "75033",
+                      "75225",
+                      "75205",
+                      "75201"
+                    ],
+                    "window_start": "2024-09",
+                    "window_end": "2025-08",
+                    "notes": [
+                      "Initialized from user criteria",
+                      "Aggregate mode: filters use ZHVI (price) + ZIP/month; beds/sqft not in public feeds"
+                    ],
+                    "revision_round": 0
+                  }
+                },
+                {
+                  "agent": "Scanner",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Retrieved 120 matching listings from local dataset",
+                  "details": {
+                    "matched_listings": 120,
+                    "unique_zips": [
+                      "75001",
+                      "75024",
+                      "75033",
+                      "75063",
+                      "75204",
+                      "75206",
+                      "75219",
+                      "75248",
+                      "76051",
+                      "76107"
+                    ],
+                    "counts_by_month": {
+                      "2024-09": 10,
+                      "2024-10": 10,
+                      "2024-11": 10,
+                      "2024-12": 10,
+                      "2025-01": 10,
+                      "2025-02": 10,
+                      "2025-03": 10,
+                      "2025-04": 10,
+                      "2025-05": 10,
+                      "2025-06": 10,
+                      "2025-07": 10,
+                      "2025-08": 10
+                    },
+                    "sample_ids": [
+                      "75001-2024-09",
+                      "75024-2024-09",
+                      "75033-2024-09",
+                      "75063-2024-09",
+                      "75204-2024-09",
+                      "75206-2024-09",
+                      "75219-2024-09",
+                      "75248-2024-09"
+                    ]
+                  }
+                },
+                {
+                  "agent": "Analyst",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Computed 12-month trend \u00b7 coverage 1.00 \u00b7 YoY -0.8%",
+                  "details": {
+                    "total_listings": 120,
+                    "coverage_score": 1.0,
+                    "yoy_pct_change": -0.8355880688828464,
+                    "empty_months": [],
+                    "first_month": {
+                      "month": "2024-09",
+                      "median_price": 574685.1817479869,
+                      "median_price_per_sqft": 200.716314027,
+                      "active_count": 10
+                    },
+                    "last_month": {
+                      "month": "2025-08",
+                      "median_price": 569883.180935663,
+                      "median_price_per_sqft": 194.961007798,
+                      "active_count": 10
+                    },
+                    "monthly": [
+                      {
+                        "month": "2024-09",
+                        "median_price": 574685.1817479869,
+                        "median_price_per_sqft": 200.716314027,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2024-10",
+                        "median_price": 576486.981057739,
+                        "median_price_per_sqft": 201.305201667,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2024-11",
+                        "median_price": 578085.6808260052,
+                        "median_price_per_sqft": 200.824243326,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2024-12",
+                        "median_price": 579409.0288963197,
+                        "median_price_per_sqft": 201.718138006,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2025-01",
+                        "median_price": 580454.3420879936,
+                        "median_price_per_sqft": 199.73027745,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2025-02",
+                        "median_price": 580989.0317235133,
+                        "median_price_per_sqft": 195.558833958,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2025-03",
+                        "median_price": 580269.2512973764,
+                        "median_price_per_sqft": 197.249723826,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2025-04",
+                        "median_price": 578373.7095359527,
+                        "median_price_per_sqft": 200.400801603,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2025-05",
+                        "median_price": 576081.5068103233,
+                        "median_price_per_sqft": 192.901280939,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2025-06",
+                        "median_price": 573018.0938765921,
+                        "median_price_per_sqft": 199.311023622,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2025-07",
+                        "median_price": 570785.9848762644,
+                        "median_price_per_sqft": 193.912056716,
+                        "active_count": 10
+                      },
+                      {
+                        "month": "2025-08",
+                        "median_price": 569883.180935663,
+                        "median_price_per_sqft": 194.961007798,
+                        "active_count": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent": "Critic",
+                  "iteration": 1,
+                  "status": "pass",
+                  "summary": "PASS \u2014 Coverage 1.00 acceptable across 12 months.",
+                  "details": {
+                    "status": "pass",
+                    "coverage_score": 1.0,
+                    "confidence": 1.0,
+                    "actions": []
+                  }
+                },
+                {
+                  "agent": "Report",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "DFW median list price softened -0.8% over the selected 12 months",
+                  "details": {
+                    "headline": "DFW median list price softened -0.8% over the selected 12 months",
+                    "narrative": "Across 120 matching listings from 2024-09 to 2025-08, median price moved from $574,685 to $569,883 (USD). Median $/sqft ended at $195. Coverage score 1.00 after 1 agent iteration(s). Active filters: $350,000\u2013$783,000, 2\u20134 beds, 16 ZIP codes.",
+                    "iterations": 1,
+                    "mode": "mock"
+                  }
+                }
+              ],
+              "headline": "DFW median list price softened -0.8% over the selected 12 months"
+            }
+          }
+        },
+        {
+          "case": 2,
+          "passed": true,
+          "detail": "stats identical after shuffle",
+          "criteria": {
+            "price_min": 288000.0,
+            "price_max": 875000.0,
+            "zips": [
+              "75063",
+              "75209",
+              "75248",
+              "75219",
+              "75225",
+              "75201"
+            ],
+            "window_end": "2026-01",
+            "beds_min": 3,
+            "beds_max": 5
+          },
+          "metrics": {
+            "transform": "Shuffle ZIP-month row order (same data)",
+            "expect": "median_price, median_ppsf, active_count unchanged",
+            "checks": {
+              "median_price_equal": true,
+              "median_ppsf_equal": true,
+              "active_count_equal": true
+            },
+            "source": {
+              "months": [
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01"
+              ],
+              "median_price": [
+                624947.15,
+                622118.11,
+                619861.68,
+                616838.45,
+                612815.66,
+                609342.26,
+                607943.41,
+                609186.79,
+                611525.39,
+                613910.02,
+                615617.89,
+                615212.19
+              ],
+              "median_ppsf": [
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082,
+                191.265
+              ],
+              "active_count": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "yoy_pct_change": -1.557725,
+              "total_listings": 36,
+              "coverage_score": 0.75
+            },
+            "followup": {
+              "months": [
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01"
+              ],
+              "median_price": [
+                624947.15,
+                622118.11,
+                619861.68,
+                616838.45,
+                612815.66,
+                609342.26,
+                607943.41,
+                609186.79,
+                611525.39,
+                613910.02,
+                615617.89,
+                615212.19
+              ],
+              "median_ppsf": [
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082,
+                191.265
+              ],
+              "active_count": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "yoy_pct_change": -1.557725,
+              "total_listings": 36,
+              "coverage_score": 0.75
+            },
+            "agents": [
+              "Scanner",
+              "Analyst"
+            ],
+            "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts.",
+            "agent_pipeline": {
+              "mode": "mock",
+              "iterations": 1,
+              "trace": [
+                "mode=mock",
+                "iter=1 criteria \u2192 price 288000-875000, zips=6, beds=3-5",
+                "iter=1 scanner \u2192 36 listings",
+                "iter=1 analyst \u2192 coverage=0.75, total=36",
+                "iter=1 critic \u2192 PASS (Coverage 0.75 acceptable across 12 months.)"
+              ],
+              "agent_steps": [
+                {
+                  "agent": "Criteria",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Built query plan: $288,000\u2013$875,000, 3\u20135 beds, 6 ZIPs, window 2025-02\u21922026-01 (rev #0)",
+                  "details": {
+                    "price_min": 288000.0,
+                    "price_max": 875000.0,
+                    "beds_min": 3,
+                    "beds_max": 5,
+                    "sqft_min": 1140.0,
+                    "sqft_max": 2872.0,
+                    "zips": [
+                      "75063",
+                      "75209",
+                      "75248",
+                      "75219",
+                      "75225",
+                      "75201"
+                    ],
+                    "window_start": "2025-02",
+                    "window_end": "2026-01",
+                    "notes": [
+                      "Initialized from user criteria",
+                      "Aggregate mode: filters use ZHVI (price) + ZIP/month; beds/sqft not in public feeds"
+                    ],
+                    "revision_round": 0
+                  }
+                },
+                {
+                  "agent": "Scanner",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Retrieved 36 matching listings from local dataset",
+                  "details": {
+                    "matched_listings": 36,
+                    "unique_zips": [
+                      "75063",
+                      "75219",
+                      "75248"
+                    ],
+                    "counts_by_month": {
+                      "2025-02": 3,
+                      "2025-03": 3,
+                      "2025-04": 3,
+                      "2025-05": 3,
+                      "2025-06": 3,
+                      "2025-07": 3,
+                      "2025-08": 3,
+                      "2025-09": 3,
+                      "2025-10": 3,
+                      "2025-11": 3,
+                      "2025-12": 3,
+                      "2026-01": 3
+                    },
+                    "sample_ids": [
+                      "75063-2025-02",
+                      "75219-2025-02",
+                      "75248-2025-02",
+                      "75063-2025-03",
+                      "75219-2025-03",
+                      "75248-2025-03",
+                      "75063-2025-04",
+                      "75219-2025-04"
+                    ]
+                  }
+                },
+                {
+                  "agent": "Analyst",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Computed 12-month trend \u00b7 coverage 0.75 \u00b7 YoY -1.6%",
+                  "details": {
+                    "total_listings": 36,
+                    "coverage_score": 0.75,
+                    "yoy_pct_change": -1.557725045598658,
+                    "empty_months": [],
+                    "first_month": {
+                      "month": "2025-02",
+                      "median_price": 624947.1529980513,
+                      "median_price_per_sqft": 195.558833958,
+                      "active_count": 3
+                    },
+                    "last_month": {
+                      "month": "2026-01",
+                      "median_price": 615212.1946740448,
+                      "median_price_per_sqft": 191.264979853,
+                      "active_count": 3
+                    },
+                    "monthly": [
+                      {
+                        "month": "2025-02",
+                        "median_price": 624947.1529980513,
+                        "median_price_per_sqft": 195.558833958,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-03",
+                        "median_price": 622118.1052637236,
+                        "median_price_per_sqft": 197.249723826,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-04",
+                        "median_price": 619861.6833418423,
+                        "median_price_per_sqft": 200.400801603,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-05",
+                        "median_price": 616838.4477768744,
+                        "median_price_per_sqft": 192.901280939,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-06",
+                        "median_price": 612815.6564483504,
+                        "median_price_per_sqft": 199.311023622,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-07",
+                        "median_price": 609342.2573170813,
+                        "median_price_per_sqft": 193.912056716,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-08",
+                        "median_price": 607943.409669057,
+                        "median_price_per_sqft": 194.961007798,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-09",
+                        "median_price": 609186.7949057347,
+                        "median_price_per_sqft": 190.500036658,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-10",
+                        "median_price": 611525.3877267729,
+                        "median_price_per_sqft": 190.966326531,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-11",
+                        "median_price": 613910.0172634796,
+                        "median_price_per_sqft": 190.398130071,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-12",
+                        "median_price": 615617.8858575639,
+                        "median_price_per_sqft": 189.708217312,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2026-01",
+                        "median_price": 615212.1946740448,
+                        "median_price_per_sqft": 191.264979853,
+                        "active_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent": "Critic",
+                  "iteration": 1,
+                  "status": "pass",
+                  "summary": "PASS \u2014 Coverage 0.75 acceptable across 12 months.",
+                  "details": {
+                    "status": "pass",
+                    "coverage_score": 0.75,
+                    "confidence": 0.75,
+                    "actions": []
+                  }
+                },
+                {
+                  "agent": "Report",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "DFW median list price softened -1.6% over the selected 12 months",
+                  "details": {
+                    "headline": "DFW median list price softened -1.6% over the selected 12 months",
+                    "narrative": "Across 36 matching listings from 2025-02 to 2026-01, median price moved from $624,947 to $615,212 (USD). Median $/sqft ended at $191. Coverage score 0.75 after 1 agent iteration(s). Active filters: $288,000\u2013$875,000, 3\u20135 beds, 6 ZIP codes.",
+                    "iterations": 1,
+                    "mode": "mock"
+                  }
+                }
+              ],
+              "headline": "DFW median list price softened -1.6% over the selected 12 months"
+            }
+          }
+        },
+        {
+          "case": 3,
+          "passed": true,
+          "detail": "stats identical after shuffle",
+          "criteria": {
+            "price_min": 437000.0,
+            "price_max": 975000.0,
+            "zips": [
+              "75248",
+              "75219",
+              "75206",
+              "75204"
+            ],
+            "window_end": "2026-02",
+            "beds_min": 3,
+            "beds_max": 4
+          },
+          "metrics": {
+            "transform": "Shuffle ZIP-month row order (same data)",
+            "expect": "median_price, median_ppsf, active_count unchanged",
+            "checks": {
+              "median_price_equal": true,
+              "median_ppsf_equal": true,
+              "active_count_equal": true
+            },
+            "source": {
+              "months": [
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01",
+                "2026-02"
+              ],
+              "median_price": [
+                607898.02,
+                606222.09,
+                604120.07,
+                601121.32,
+                599351.5,
+                599085.29,
+                601615.9,
+                604923.41,
+                608596.32,
+                611555.47,
+                614163.02,
+                615859.8
+              ],
+              "median_ppsf": [
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082,
+                191.265,
+                190.4785
+              ],
+              "active_count": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "yoy_pct_change": 1.309723,
+              "total_listings": 36,
+              "coverage_score": 0.75
+            },
+            "followup": {
+              "months": [
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01",
+                "2026-02"
+              ],
+              "median_price": [
+                607898.02,
+                606222.09,
+                604120.07,
+                601121.32,
+                599351.5,
+                599085.29,
+                601615.9,
+                604923.41,
+                608596.32,
+                611555.47,
+                614163.02,
+                615859.8
+              ],
+              "median_ppsf": [
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082,
+                191.265,
+                190.4785
+              ],
+              "active_count": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
+              ],
+              "yoy_pct_change": 1.309723,
+              "total_listings": 36,
+              "coverage_score": 0.75
+            },
+            "agents": [
+              "Scanner",
+              "Analyst"
+            ],
+            "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts.",
+            "agent_pipeline": {
+              "mode": "mock",
+              "iterations": 1,
+              "trace": [
+                "mode=mock",
+                "iter=1 criteria \u2192 price 437000-975000, zips=4, beds=3-4",
+                "iter=1 scanner \u2192 36 listings",
+                "iter=1 analyst \u2192 coverage=0.75, total=36",
+                "iter=1 critic \u2192 PASS (Coverage 0.75 acceptable across 12 months.)"
+              ],
+              "agent_steps": [
+                {
+                  "agent": "Criteria",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Built query plan: $437,000\u2013$975,000, 3\u20134 beds, 4 ZIPs, window 2025-03\u21922026-02 (rev #0)",
+                  "details": {
+                    "price_min": 437000.0,
+                    "price_max": 975000.0,
+                    "beds_min": 3,
+                    "beds_max": 4,
+                    "sqft_min": 1006.0,
+                    "sqft_max": 4242.0,
+                    "zips": [
+                      "75248",
+                      "75219",
+                      "75206",
+                      "75204"
+                    ],
+                    "window_start": "2025-03",
+                    "window_end": "2026-02",
+                    "notes": [
+                      "Initialized from user criteria",
+                      "Aggregate mode: filters use ZHVI (price) + ZIP/month; beds/sqft not in public feeds"
+                    ],
+                    "revision_round": 0
+                  }
+                },
+                {
+                  "agent": "Scanner",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Retrieved 36 matching listings from local dataset",
+                  "details": {
+                    "matched_listings": 36,
+                    "unique_zips": [
+                      "75204",
+                      "75206",
+                      "75248"
+                    ],
+                    "counts_by_month": {
+                      "2025-03": 3,
+                      "2025-04": 3,
+                      "2025-05": 3,
+                      "2025-06": 3,
+                      "2025-07": 3,
+                      "2025-08": 3,
+                      "2025-09": 3,
+                      "2025-10": 3,
+                      "2025-11": 3,
+                      "2025-12": 3,
+                      "2026-01": 3,
+                      "2026-02": 3
+                    },
+                    "sample_ids": [
+                      "75204-2025-03",
+                      "75206-2025-03",
+                      "75248-2025-03",
+                      "75204-2025-04",
+                      "75206-2025-04",
+                      "75248-2025-04",
+                      "75204-2025-05",
+                      "75206-2025-05"
+                    ]
+                  }
+                },
+                {
+                  "agent": "Analyst",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Computed 12-month trend \u00b7 coverage 0.75 \u00b7 YoY +1.3%",
+                  "details": {
+                    "total_listings": 36,
+                    "coverage_score": 0.75,
+                    "yoy_pct_change": 1.3097233040588807,
+                    "empty_months": [],
+                    "first_month": {
+                      "month": "2025-03",
+                      "median_price": 607898.0217091345,
+                      "median_price_per_sqft": 197.249723826,
+                      "active_count": 3
+                    },
+                    "last_month": {
+                      "month": "2026-02",
+                      "median_price": 615859.8037643719,
+                      "median_price_per_sqft": 190.47847224,
+                      "active_count": 3
+                    },
+                    "monthly": [
+                      {
+                        "month": "2025-03",
+                        "median_price": 607898.0217091345,
+                        "median_price_per_sqft": 197.249723826,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-04",
+                        "median_price": 606222.0857012509,
+                        "median_price_per_sqft": 200.400801603,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-05",
+                        "median_price": 604120.0659683634,
+                        "median_price_per_sqft": 192.901280939,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-06",
+                        "median_price": 601121.3241271689,
+                        "median_price_per_sqft": 199.311023622,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-07",
+                        "median_price": 599351.497568201,
+                        "median_price_per_sqft": 193.912056716,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-08",
+                        "median_price": 599085.293335019,
+                        "median_price_per_sqft": 194.961007798,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-09",
+                        "median_price": 601615.8980830257,
+                        "median_price_per_sqft": 190.500036658,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-10",
+                        "median_price": 604923.4131621268,
+                        "median_price_per_sqft": 190.966326531,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-11",
+                        "median_price": 608596.3158272005,
+                        "median_price_per_sqft": 190.398130071,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2025-12",
+                        "median_price": 611555.4723671975,
+                        "median_price_per_sqft": 189.708217312,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2026-01",
+                        "median_price": 614163.0208287911,
+                        "median_price_per_sqft": 191.264979853,
+                        "active_count": 3
+                      },
+                      {
+                        "month": "2026-02",
+                        "median_price": 615859.8037643719,
+                        "median_price_per_sqft": 190.47847224,
+                        "active_count": 3
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent": "Critic",
+                  "iteration": 1,
+                  "status": "pass",
+                  "summary": "PASS \u2014 Coverage 0.75 acceptable across 12 months.",
+                  "details": {
+                    "status": "pass",
+                    "coverage_score": 0.75,
+                    "confidence": 0.75,
+                    "actions": []
+                  }
+                },
+                {
+                  "agent": "Report",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "DFW median list price rose +1.3% over the selected 12 months",
+                  "details": {
+                    "headline": "DFW median list price rose +1.3% over the selected 12 months",
+                    "narrative": "Across 36 matching listings from 2025-03 to 2026-02, median price moved from $607,898 to $615,860 (USD). Median $/sqft ended at $190. Coverage score 0.75 after 1 agent iteration(s). Active filters: $437,000\u2013$975,000, 3\u20134 beds, 4 ZIP codes.",
+                    "iterations": 1,
+                    "mode": "mock"
+                  }
+                }
+              ],
+              "headline": "DFW median list price rose +1.3% over the selected 12 months"
+            }
+          }
+        },
+        {
+          "case": 4,
+          "passed": true,
+          "detail": "stats identical after shuffle",
+          "criteria": {
+            "price_min": 322000.0,
+            "price_max": 779000.0,
+            "zips": [
+              "75214",
+              "76051",
+              "76107",
+              "75230"
+            ],
+            "window_end": "2025-11",
+            "beds_min": 2,
+            "beds_max": 2
+          },
+          "metrics": {
+            "transform": "Shuffle ZIP-month row order (same data)",
+            "expect": "median_price, median_ppsf, active_count unchanged",
+            "checks": {
+              "median_price_equal": true,
+              "median_ppsf_equal": true,
+              "active_count_equal": true
+            },
+            "source": {
+              "months": [
+                "2024-12",
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11"
+              ],
+              "median_price": [
+                466215.75,
+                466509.56,
+                466223.31,
+                464889.93,
+                463163.48,
+                461191.83,
+                458884.45,
+                456932.13,
+                455581.96,
+                455739.31,
+                456634.72,
+                458132.52
+              ],
+              "median_ppsf": [
+                201.7181,
+                199.7303,
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981
+              ],
+              "active_count": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "yoy_pct_change": -1.733795,
+              "total_listings": 24,
+              "coverage_score": 0.5
+            },
+            "followup": {
+              "months": [
+                "2024-12",
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11"
+              ],
+              "median_price": [
+                466215.75,
+                466509.56,
+                466223.31,
+                464889.93,
+                463163.48,
+                461191.83,
+                458884.45,
+                456932.13,
+                455581.96,
+                455739.31,
+                456634.72,
+                458132.52
+              ],
+              "median_ppsf": [
+                201.7181,
+                199.7303,
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981
+              ],
+              "active_count": [
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
+              ],
+              "yoy_pct_change": -1.733795,
+              "total_listings": 24,
+              "coverage_score": 0.5
+            },
+            "agents": [
+              "Scanner",
+              "Analyst"
+            ],
+            "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts.",
+            "agent_pipeline": {
+              "mode": "mock",
+              "iterations": 2,
+              "trace": [
+                "mode=mock",
+                "iter=1 criteria \u2192 price 322000-779000, zips=4, beds=2-2",
+                "iter=1 scanner \u2192 24 listings",
+                "iter=1 analyst \u2192 coverage=0.50, total=24",
+                "iter=1 critic \u2192 REVISE [widen_price_max, expand_zips, relax_beds] coverage=0.50",
+                "iter=2 criteria \u2192 price 322000-919220, zips=8, beds=1-3",
+                "iter=2 scanner \u2192 60 listings",
+                "iter=2 analyst \u2192 coverage=1.00, total=60",
+                "iter=2 critic \u2192 PASS (Coverage 1.00 acceptable across 12 months.)"
+              ],
+              "agent_steps": [
+                {
+                  "agent": "Criteria",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Built query plan: $322,000\u2013$779,000, 2\u20132 beds, 4 ZIPs, window 2024-12\u21922025-11 (rev #0)",
+                  "details": {
+                    "price_min": 322000.0,
+                    "price_max": 779000.0,
+                    "beds_min": 2,
+                    "beds_max": 2,
+                    "sqft_min": 1108.0,
+                    "sqft_max": 3301.0,
+                    "zips": [
+                      "75214",
+                      "76051",
+                      "76107",
+                      "75230"
+                    ],
+                    "window_start": "2024-12",
+                    "window_end": "2025-11",
+                    "notes": [
+                      "Initialized from user criteria",
+                      "Aggregate mode: filters use ZHVI (price) + ZIP/month; beds/sqft not in public feeds"
+                    ],
+                    "revision_round": 0
+                  }
+                },
+                {
+                  "agent": "Scanner",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Retrieved 24 matching listings from local dataset",
+                  "details": {
+                    "matched_listings": 24,
+                    "unique_zips": [
+                      "76051",
+                      "76107"
+                    ],
+                    "counts_by_month": {
+                      "2024-12": 2,
+                      "2025-01": 2,
+                      "2025-02": 2,
+                      "2025-03": 2,
+                      "2025-04": 2,
+                      "2025-05": 2,
+                      "2025-06": 2,
+                      "2025-07": 2,
+                      "2025-08": 2,
+                      "2025-09": 2,
+                      "2025-10": 2,
+                      "2025-11": 2
+                    },
+                    "sample_ids": [
+                      "76051-2024-12",
+                      "76107-2024-12",
+                      "76051-2025-01",
+                      "76107-2025-01",
+                      "76051-2025-02",
+                      "76107-2025-02",
+                      "76051-2025-03",
+                      "76107-2025-03"
+                    ]
+                  }
+                },
+                {
+                  "agent": "Analyst",
+                  "iteration": 1,
+                  "status": "ok",
+                  "summary": "Computed 12-month trend \u00b7 coverage 0.50 \u00b7 YoY -1.7%",
+                  "details": {
+                    "total_listings": 24,
+                    "coverage_score": 0.5,
+                    "yoy_pct_change": -1.7337954006319871,
+                    "empty_months": [],
+                    "first_month": {
+                      "month": "2024-12",
+                      "median_price": 466215.74533988914,
+                      "median_price_per_sqft": 201.718138006,
+                      "active_count": 2
+                    },
+                    "last_month": {
+                      "month": "2025-11",
+                      "median_price": 458132.518190164,
+                      "median_price_per_sqft": 190.398130071,
+                      "active_count": 2
+                    },
+                    "monthly": [
+                      {
+                        "month": "2024-12",
+                        "median_price": 466215.74533988914,
+                        "median_price_per_sqft": 201.718138006,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-01",
+                        "median_price": 466509.5628538175,
+                        "median_price_per_sqft": 199.73027745,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-02",
+                        "median_price": 466223.30982510635,
+                        "median_price_per_sqft": 195.558833958,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-03",
+                        "median_price": 464889.9275324724,
+                        "median_price_per_sqft": 197.249723826,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-04",
+                        "median_price": 463163.4839167654,
+                        "median_price_per_sqft": 200.400801603,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-05",
+                        "median_price": 461191.8348801073,
+                        "median_price_per_sqft": 192.901280939,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-06",
+                        "median_price": 458884.44641968433,
+                        "median_price_per_sqft": 199.311023622,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-07",
+                        "median_price": 456932.12758056656,
+                        "median_price_per_sqft": 193.912056716,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-08",
+                        "median_price": 455581.96270429844,
+                        "median_price_per_sqft": 194.961007798,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-09",
+                        "median_price": 455739.3080774441,
+                        "median_price_per_sqft": 190.500036658,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-10",
+                        "median_price": 456634.7158166582,
+                        "median_price_per_sqft": 190.966326531,
+                        "active_count": 2
+                      },
+                      {
+                        "month": "2025-11",
+                        "median_price": 458132.518190164,
+                        "median_price_per_sqft": 190.398130071,
+                        "active_count": 2
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent": "Critic",
+                  "iteration": 1,
+                  "status": "revise",
+                  "summary": "REVISE \u2014 Coverage 0.50 below 0.72; requesting plan revision.",
+                  "details": {
+                    "status": "revise",
+                    "coverage_score": 0.5,
+                    "confidence": 0.5,
+                    "actions": [
+                      {
+                        "action": "widen_price_max",
+                        "value": 1.18,
+                        "reason": "Weak months: 2024-12, 2025-01, 2025-02, 2025-03"
+                      },
+                      {
+                        "action": "expand_zips",
+                        "value": 4,
+                        "reason": "Increase geographic coverage for thin months"
+                      },
+                      {
+                        "action": "relax_beds",
+                        "value": 1,
+                        "reason": "Mean monthly count below threshold"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent": "Criteria",
+                  "iteration": 2,
+                  "status": "ok",
+                  "summary": "Built query plan: $322,000\u2013$919,220, 1\u20133 beds, 8 ZIPs, window 2024-12\u21922025-11 (rev #1)",
+                  "details": {
+                    "price_min": 322000.0,
+                    "price_max": 919220.0,
+                    "beds_min": 1,
+                    "beds_max": 3,
+                    "sqft_min": 1108.0,
+                    "sqft_max": 3301.0,
+                    "zips": [
+                      "75201",
+                      "75204",
+                      "75205",
+                      "75206",
+                      "75214",
+                      "75230",
+                      "76051",
+                      "76107"
+                    ],
+                    "window_start": "2024-12",
+                    "window_end": "2025-11",
+                    "notes": [
+                      "Initialized from user criteria",
+                      "Aggregate mode: filters use ZHVI (price) + ZIP/month; beds/sqft not in public feeds",
+                      "Widened price_max \u2192 919220 (Weak months: 2024-12, 2025-01, 2025-02, 2025-03)",
+                      "Expanded ZIP set to 8 codes (Increase geographic coverage for thin months)",
+                      "Relaxed beds to 1-3 (Mean monthly count below threshold)"
+                    ],
+                    "revision_round": 1
+                  }
+                },
+                {
+                  "agent": "Scanner",
+                  "iteration": 2,
+                  "status": "ok",
+                  "summary": "Retrieved 60 matching listings from local dataset",
+                  "details": {
+                    "matched_listings": 60,
+                    "unique_zips": [
+                      "75204",
+                      "75206",
+                      "75214",
+                      "76051",
+                      "76107"
+                    ],
+                    "counts_by_month": {
+                      "2024-12": 5,
+                      "2025-01": 5,
+                      "2025-02": 5,
+                      "2025-03": 5,
+                      "2025-04": 5,
+                      "2025-05": 5,
+                      "2025-06": 5,
+                      "2025-07": 5,
+                      "2025-08": 5,
+                      "2025-09": 5,
+                      "2025-10": 5,
+                      "2025-11": 5
+                    },
+                    "sample_ids": [
+                      "75204-2024-12",
+                      "75206-2024-12",
+                      "75214-2024-12",
+                      "76051-2024-12",
+                      "76107-2024-12",
+                      "75204-2025-01",
+                      "75206-2025-01",
+                      "75214-2025-01"
+                    ]
+                  }
+                },
+                {
+                  "agent": "Analyst",
+                  "iteration": 2,
+                  "status": "ok",
+                  "summary": "Computed 12-month trend \u00b7 coverage 1.00 \u00b7 YoY -1.4%",
+                  "details": {
+                    "total_listings": 60,
+                    "coverage_score": 1.0,
+                    "yoy_pct_change": -1.438883034970349,
+                    "empty_months": [],
+                    "first_month": {
+                      "month": "2024-12",
+                      "median_price": 555211.7850820242,
+                      "median_price_per_sqft": 201.718138006,
+                      "active_count": 5
+                    },
+                    "last_month": {
+                      "month": "2025-11",
+                      "median_price": 547222.9368983229,
+                      "median_price_per_sqft": 190.398130071,
+                      "active_count": 5
+                    },
+                    "monthly": [
+                      {
+                        "month": "2024-12",
+                        "median_price": 555211.7850820242,
+                        "median_price_per_sqft": 201.718138006,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-01",
+                        "median_price": 555516.8309755971,
+                        "median_price_per_sqft": 199.73027745,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-02",
+                        "median_price": 554584.8105927677,
+                        "median_price_per_sqft": 195.558833958,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-03",
+                        "median_price": 552640.4808856184,
+                        "median_price_per_sqft": 197.249723826,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-04",
+                        "median_price": 550525.3333706543,
+                        "median_price_per_sqft": 200.400801603,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-05",
+                        "median_price": 548042.9476522831,
+                        "median_price_per_sqft": 192.901280939,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-06",
+                        "median_price": 544914.8636260155,
+                        "median_price_per_sqft": 199.311023622,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-07",
+                        "median_price": 542220.4721843277,
+                        "median_price_per_sqft": 193.912056716,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-08",
+                        "median_price": 540681.0685363071,
+                        "median_price_per_sqft": 194.961007798,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-09",
+                        "median_price": 541833.3250916012,
+                        "median_price_per_sqft": 190.500036658,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-10",
+                        "median_price": 544207.8464414328,
+                        "median_price_per_sqft": 190.966326531,
+                        "active_count": 5
+                      },
+                      {
+                        "month": "2025-11",
+                        "median_price": 547222.9368983229,
+                        "median_price_per_sqft": 190.398130071,
+                        "active_count": 5
+                      }
+                    ]
+                  }
+                },
+                {
+                  "agent": "Critic",
+                  "iteration": 2,
+                  "status": "pass",
+                  "summary": "PASS \u2014 Coverage 1.00 acceptable across 12 months.",
+                  "details": {
+                    "status": "pass",
+                    "coverage_score": 1.0,
+                    "confidence": 0.85,
+                    "actions": []
+                  }
+                },
+                {
+                  "agent": "Report",
+                  "iteration": 2,
+                  "status": "ok",
+                  "summary": "DFW median list price softened -1.4% over the selected 12 months",
+                  "details": {
+                    "headline": "DFW median list price softened -1.4% over the selected 12 months",
+                    "narrative": "Across 60 matching listings from 2024-12 to 2025-11, median price moved from $555,212 to $547,223 (USD). Median $/sqft ended at $190. Coverage score 1.00 after 2 agent iteration(s). Active filters: $322,000\u2013$919,220, 1\u20133 beds, 8 ZIP codes.",
+                    "iterations": 2,
+                    "mode": "mock"
+                  }
+                }
+              ],
+              "headline": "DFW median list price softened -1.4% over the selected 12 months"
+            }
+          }
+        },
+        {
+          "case": 5,
+          "passed": true,
+          "detail": "stats identical after shuffle",
+          "criteria": {
+            "price_min": 365000.0,
+            "price_max": 956000.0,
+            "zips": [
+              "75225",
+              "75033",
+              "76051",
+              "75205",
+              "75024",
+              "75219",
+              "75209",
+              "75230",
+              "75001"
+            ],
+            "window_end": "2025-08",
+            "beds_min": 2,
+            "beds_max": 4
+          },
+          "metrics": {
+            "transform": "Shuffle ZIP-month row order (same data)",
+            "expect": "median_price, median_ppsf, active_count unchanged",
+            "checks": {
+              "median_price_equal": true,
+              "median_ppsf_equal": true,
+              "active_count_equal": true
+            },
+            "source": {
+              "months": [
+                "2024-09",
+                "2024-10",
+                "2024-11",
+                "2024-12",
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08"
+              ],
+              "median_price": [
+                549384.87,
+                551693.76,
+                553804.42,
+                555211.79,
+                555516.83,
+                554584.81,
+                552640.48,
+                550525.33,
+                548042.95,
+                544914.86,
+                542220.47,
+                540681.07
+              ],
+              "median_ppsf": [
+                200.7163,
+                201.3052,
+                200.8242,
+                201.7181,
+                199.7303,
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961
+              ],
+              "active_count": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "yoy_pct_change": -1.584281,
+              "total_listings": 60,
+              "coverage_score": 1.0
+            },
+            "followup": {
+              "months": [
+                "2024-09",
+                "2024-10",
+                "2024-11",
+                "2024-12",
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08"
+              ],
+              "median_price": [
+                549384.87,
+                551693.76,
+                553804.42,
+                555211.79,
+                555516.83,
+                554584.81,
+                552640.48,
+                550525.33,
+                548042.95,
+                544914.86,
+                542220.47,
+                540681.07
+              ],
+              "median_ppsf": [
+                200.7163,
+                201.3052,
+                200.8242,
+                201.7181,
+                199.7303,
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961
+              ],
+              "active_count": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "yoy_pct_change": -1.584281,
+              "total_listings": 60,
+              "coverage_score": 1.0
+            },
+            "agents": [
+              "Scanner",
+              "Analyst"
+            ],
+            "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts."
+          }
+        },
+        {
+          "case": 6,
+          "passed": true,
+          "detail": "stats identical after shuffle",
+          "criteria": {
+            "price_min": 384000.0,
+            "price_max": 589000.0,
+            "zips": [
+              "75214",
+              "75001",
+              "75248",
+              "75225",
+              "75230",
+              "75219",
+              "76051",
+              "75209",
+              "75204",
+              "75201",
+              "75206",
+              "76107",
+              "75063",
+              "75024",
+              "75205"
+            ],
+            "window_end": "2025-12",
+            "beds_min": 1,
+            "beds_max": 3
+          },
+          "metrics": {
+            "transform": "Shuffle ZIP-month row order (same data)",
+            "expect": "median_price, median_ppsf, active_count unchanged",
+            "checks": {
+              "median_price_equal": true,
+              "median_ppsf_equal": true,
+              "active_count_equal": true
+            },
+            "source": {
+              "months": [
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12"
+              ],
+              "median_price": [
+                512220.61,
+                513048.81,
+                512579.71,
+                510527.03,
+                507499.04,
+                503827.86,
+                500964.73,
+                499770.59,
+                500647.1,
+                502464.2,
+                503846.33,
+                504662.01
+              ],
+              "median_ppsf": [
+                199.7303,
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082
+              ],
+              "active_count": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "yoy_pct_change": -1.475653,
+              "total_listings": 48,
+              "coverage_score": 1.0
+            },
+            "followup": {
+              "months": [
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12"
+              ],
+              "median_price": [
+                512220.61,
+                513048.81,
+                512579.71,
+                510527.03,
+                507499.04,
+                503827.86,
+                500964.73,
+                499770.59,
+                500647.1,
+                502464.2,
+                503846.33,
+                504662.01
+              ],
+              "median_ppsf": [
+                199.7303,
+                195.5588,
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082
+              ],
+              "active_count": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4,
+                4
+              ],
+              "yoy_pct_change": -1.475653,
+              "total_listings": 48,
+              "coverage_score": 1.0
+            },
+            "agents": [
+              "Scanner",
+              "Analyst"
+            ],
+            "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts."
+          }
+        },
+        {
+          "case": 7,
+          "passed": true,
+          "detail": "stats identical after shuffle",
+          "criteria": {
+            "price_min": 292000.0,
+            "price_max": 587000.0,
+            "zips": [
+              "75219",
+              "75248",
+              "75024",
+              "75063",
+              "75209",
+              "75205",
+              "75230",
+              "75201",
+              "75206",
+              "75001",
+              "75225",
+              "76107",
+              "75033",
+              "75214",
+              "75204",
+              "76051"
+            ],
+            "window_end": "2026-02",
+            "beds_min": 3,
+            "beds_max": 3
+          },
+          "metrics": {
+            "transform": "Shuffle ZIP-month row order (same data)",
+            "expect": "median_price, median_ppsf, active_count unchanged",
+            "checks": {
+              "median_price_equal": true,
+              "median_ppsf_equal": true,
+              "active_count_equal": true
+            },
+            "source": {
+              "months": [
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01",
+                "2026-02"
+              ],
+              "median_price": [
+                506739.84,
+                504454.9,
+                501286.07,
+                497415.34,
+                494016.55,
+                492025.95,
+                492237.36,
+                493831.59,
+                495455.37,
+                496857.29,
+                497669.45,
+                497767.3
+              ],
+              "median_ppsf": [
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082,
+                191.265,
+                190.4785
+              ],
+              "active_count": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "yoy_pct_change": -1.770642,
+              "total_listings": 60,
+              "coverage_score": 1.0
+            },
+            "followup": {
+              "months": [
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01",
+                "2026-02"
+              ],
+              "median_price": [
+                506739.84,
+                504454.9,
+                501286.07,
+                497415.34,
+                494016.55,
+                492025.95,
+                492237.36,
+                493831.59,
+                495455.37,
+                496857.29,
+                497669.45,
+                497767.3
+              ],
+              "median_ppsf": [
+                197.2497,
+                200.4008,
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082,
+                191.265,
+                190.4785
+              ],
+              "active_count": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "yoy_pct_change": -1.770642,
+              "total_listings": 60,
+              "coverage_score": 1.0
+            },
+            "agents": [
+              "Scanner",
+              "Analyst"
+            ],
+            "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts."
+          }
+        },
+        {
+          "case": 8,
+          "passed": true,
+          "detail": "stats identical after shuffle",
+          "criteria": {
+            "price_min": 422000.0,
+            "price_max": 764000.0,
+            "zips": [
+              "75209",
+              "75248",
+              "75230",
+              "75219",
+              "76107",
+              "75214",
+              "75204",
+              "75201",
+              "75033",
+              "75063"
+            ],
+            "window_end": "2026-04",
+            "beds_min": 3,
+            "beds_max": 4
+          },
+          "metrics": {
+            "transform": "Shuffle ZIP-month row order (same data)",
+            "expect": "median_price, median_ppsf, active_count unchanged",
+            "checks": {
+              "median_price_equal": true,
+              "median_ppsf_equal": true,
+              "active_count_equal": true
+            },
+            "source": {
+              "months": [
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01",
+                "2026-02",
+                "2026-03",
+                "2026-04"
+              ],
+              "median_price": [
+                616838.45,
+                612815.66,
+                609342.26,
+                607943.41,
+                609186.79,
+                611525.39,
+                613910.02,
+                615617.89,
+                615212.19,
+                613793.96,
+                611779.79,
+                610417.11
+              ],
+              "median_ppsf": [
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082,
+                191.265,
+                190.4785,
+                189.6577,
+                189.3778
+              ],
+              "active_count": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "yoy_pct_change": -1.041007,
+              "total_listings": 60,
+              "coverage_score": 1.0
+            },
+            "followup": {
+              "months": [
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01",
+                "2026-02",
+                "2026-03",
+                "2026-04"
+              ],
+              "median_price": [
+                616838.45,
+                612815.66,
+                609342.26,
+                607943.41,
+                609186.79,
+                611525.39,
+                613910.02,
+                615617.89,
+                615212.19,
+                613793.96,
+                611779.79,
+                610417.11
+              ],
+              "median_ppsf": [
+                192.9013,
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082,
+                191.265,
+                190.4785,
+                189.6577,
+                189.3778
+              ],
+              "active_count": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+              ],
+              "yoy_pct_change": -1.041007,
+              "total_listings": 60,
+              "coverage_score": 1.0
+            },
+            "agents": [
+              "Scanner",
+              "Analyst"
+            ],
+            "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts."
+          }
+        },
+        {
+          "case": 9,
+          "passed": true,
+          "detail": "stats identical after shuffle",
+          "criteria": {
+            "price_min": 375000.0,
+            "price_max": 769000.0,
+            "zips": [
+              "75001",
+              "75201",
+              "75214",
+              "75204",
+              "75063",
+              "75024",
+              "75033",
+              "75205",
+              "76107",
+              "75248"
+            ],
+            "window_end": "2026-05",
+            "beds_min": 3,
+            "beds_max": 5
+          },
+          "metrics": {
+            "transform": "Shuffle ZIP-month row order (same data)",
+            "expect": "median_price, median_ppsf, active_count unchanged",
+            "checks": {
+              "median_price_equal": true,
+              "median_ppsf_equal": true,
+              "active_count_equal": true
+            },
+            "source": {
+              "months": [
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01",
+                "2026-02",
+                "2026-03",
+                "2026-04",
+                "2026-05"
+              ],
+              "median_price": [
+                622937.61,
+                619154.49,
+                617098.24,
+                617707.52,
+                619632.51,
+                622206.23,
+                624497.6,
+                624935.83,
+                624149.3,
+                622237.4,
+                620851.62,
+                619872.15
+              ],
+              "median_ppsf": [
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082,
+                191.265,
+                190.4785,
+                189.6577,
+                189.3778,
+                196.3351
+              ],
+              "active_count": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ],
+              "yoy_pct_change": -0.492097,
+              "total_listings": 72,
+              "coverage_score": 1.0
+            },
+            "followup": {
+              "months": [
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01",
+                "2026-02",
+                "2026-03",
+                "2026-04",
+                "2026-05"
+              ],
+              "median_price": [
+                622937.61,
+                619154.49,
+                617098.24,
+                617707.52,
+                619632.51,
+                622206.23,
+                624497.6,
+                624935.83,
+                624149.3,
+                622237.4,
+                620851.62,
+                619872.15
+              ],
+              "median_ppsf": [
+                199.311,
+                193.9121,
+                194.961,
+                190.5,
+                190.9663,
+                190.3981,
+                189.7082,
+                191.265,
+                190.4785,
+                189.6577,
+                189.3778,
+                196.3351
+              ],
+              "active_count": [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6
+              ],
+              "yoy_pct_change": -0.492097,
+              "total_listings": 72,
+              "coverage_score": 1.0
+            },
+            "agents": [
+              "Scanner",
+              "Analyst"
+            ],
+            "agent_rationale": "Scanner row order must not change Analyst monthly medians/counts."
+          }
+        }
+      ]
+    }
+  ]
+}
